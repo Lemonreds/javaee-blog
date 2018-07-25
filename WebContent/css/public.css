@@ -4,9 +4,8 @@ body {
 	background: #eee;
 }
 
-
 a:link {
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .c_center {
@@ -32,17 +31,18 @@ a:link {
 .head_line {
 	border-bottom: 1px solid #177cb0;
 }
-.foot_line{
-	border-top:1px solid #C0C0C0;	
-	margin-bottom:20px;
+
+.foot_line {
+	border-top: 1px solid #C0C0C0;
+	margin-bottom: 20px;
 }
 
 .inline {
 	display: inline;
-	float:left;
-	margin-left:23px;
-	margin-right:25px;
-	margin-bottom:20px;
+	float: left;
+	margin-left: 23px;
+	margin-right: 25px;
+	margin-bottom: 20px;
 }
 
 #main {
@@ -54,21 +54,19 @@ a:link {
 	clear: both;
 }
 
-#title {
-	
-}
-
 #list {
 	margin-top: 10px;
 }
 
-
-#tag{
-	margin-top:50px;	
+#tag {
+	margin-top: 50px;
 }
 
 #footer {
-		margin-top:40px;
-		margin-bottom:40px;
-		text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	clear: both;
+	text-align: center;
 }

@@ -13,6 +13,7 @@ import blog.utils.DateUtils;
 
 public class CommentTest {
 
+	@SuppressWarnings("rawtypes")
 	@Test
 	public void testGetComment() {
 

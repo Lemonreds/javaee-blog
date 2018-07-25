@@ -5,34 +5,63 @@
 <title>登录 | MyBlog</title>
  	<!-- Bootstrap core CSS -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">    
-    <link type="text/css" rel="stylesheet" href="/Blog/css/login.css" />  
+    <!-- Custom styles for this template -->  
+    <link rel="stylesheet" href="/Blog/css/public.css" /> 
+    <link rel="stylesheet" href="/Blog/css/login.css" />  
 </head>
 <body>
-	<div class="container" id="main">
-		<form class="form-signin" id="form" action="/Blog/LoginServlet" method="post">
-			<a href="/Blog/index.jsp"><h2 class="form-signin-heading">MyBlog</h2></a>
-			<label for="input" class="sr-only">用户名</label> 
-			<input type="text" id="input" class="form-control" placeholder="用户名" name="username"
-				required> <label for="inputPassword" class="sr-only">密码</label>
-			<input type="password" id="inputPassword" class="form-control"
-				placeholder="密码" name="password" required>
+	<div class="container">
+		<form 
+			action="/Blog/LoginServlet" 
+			method="post">
 
-			<button class="btn btn-lg btn-primary btn-block" type="submit"
-				id="submit">登录</button>
+			<h1>
+				<a href="/Blog/index.jsp">MyBlog</a>
+			</h1>
 
-			<a href="/Blog/index.jsp">访客登录</a>
+			<label 
+			for="input" 
+			class="sr-only">用户名</label> 
+			
+			<input 
+			type="text" 
+			id="input" 
+			class="form-control" 
+			placeholder="用户名" 
+			name="username"
+			required>
+			
+			<label 
+			for="inputPassword" 
+			class="sr-only">密码</label>
+			
+			<input 
+			type="password" 
+			id="inputPassword" 
+			class="form-control"
+			placeholder="密码" 
+			name="password" 
+			required>
+
+			<button 
+			class="btn btn-lg btn-primary btn-block" 
+			type="submit"
+			id="submit">登录</button>
+
+			<a 
+			class="visitor" 
+			href="/Blog/index.jsp">访客登录</a>
 		</form>
-		<!-- /form -->
 	</div>
-	<!-- /container -->
+
+
 	<div id="footer">
-	<div>
-			<a href="https://github.com/Lemonreds"><img src="/Blog/img/github.png"	width="20px" height="20px" class="img-circle">&nbsp;&nbsp;GitHub</a>
-			&nbsp;|
-		<a href="#">&nbsp;&nbsp;Sakura</a>
-		</div>	
+		<a target="_blank" 
+			href="https://github.com/Lemonreds">
+		<img src="/Blog/img/github.png"	
+		width="22px" 
+		height="22px" class="img-circle">GitHub</a>
+		by lemonreds.		
 	</div>
 	<!-- footer -->
 </body>
